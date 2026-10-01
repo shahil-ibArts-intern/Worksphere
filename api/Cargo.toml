@@ -1,0 +1,27 @@
+[package]
+name = "api"
+description = "HTTP handlers, middleware, DTOs, and routes"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+domain = { workspace = true }
+db = { workspace = true }
+auth = { workspace = true }
+services = { workspace = true }
+realtime = { workspace = true }
+sqlx = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+axum = { workspace = true }
+tower = { workspace = true }
+tower-http = { workspace = true }
+http = { workspace = true }
+tracing = { workspace = true }
+validator = { workspace = true }

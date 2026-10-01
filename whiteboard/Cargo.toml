@@ -1,0 +1,28 @@
+[package]
+name = "whiteboard"
+description = "CRDT engine, sync, and presence"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+domain = { workspace = true }
+realtime = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+tracing = { workspace = true }
+automerge = { workspace = true }
+automerge_repo = { workspace = true }
+zstd = { workspace = true }
+geo = { workspace = true }
+petgraph = { workspace = true }
+bincode = { workspace = true }
+resvg = { workspace = true }
+usvg = { workspace = true }
+tiny-skia = { workspace = true }
+metrics = { workspace = true }
